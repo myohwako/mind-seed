@@ -49,7 +49,7 @@ function scrollToSection(idx){
  */
 
 // 부드러운 스크롤
-const sections = document.querySelectorAll('section');
+/* const sections = document.querySelectorAll('section');
 const empties = document.querySelectorAll('.empty');
 
 const allSections = [...document.querySelectorAll('section'), ...document.querySelectorAll('.empty')];
@@ -72,7 +72,29 @@ window.addEventListener('wheel', (e) => {
         current--;
         scrollToSection(current);
     }
+}); */
+
+
+// 스크롤롤
+document.addEventListener("DOMContentLoaded", () => {
+  const slideIns = document.querySelectorAll('.slide-in');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  slideIns.forEach(el => observer.observe(el));
 });
+
+// fade-up
+
 
 
 // 스크롤 시 헤더 숨김
@@ -332,3 +354,21 @@ window.addEventListener('wheel', (e) => {
   const text = document.getElementById('scroll-text');
   const clone = text.cloneNode(true);
   wrapper.appendChild(clone);
+
+
+  // 스크롤 이벤트가 왜 안되는걸까
+  document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target); // 한 번만 실행되게
+        }
+      });
+    }, {
+      threshold: 0.2 // 20% 보일 때 실행
+    });
+  
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  });
+
