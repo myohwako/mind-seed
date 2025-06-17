@@ -1,0 +1,623 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>마음-씨</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Adobe Typekit -->
+  <script>
+    (function (d) {
+      var config = {
+          kitId: 'joo1sdf',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || (a && a != "complete" && a != "loaded")) return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config);
+        } catch (e) {}
+      };
+      s.parentNode.insertBefore(tk, s);
+    })(document);
+  </script>
+</head>
+
+<body>
+  <!-- 헤더 -->
+  <header>
+    <a href="#main" id="logo-link">
+      <img src="img/mind-seed_logo.png" alt="로고" id="logo-img" />
+    </a>
+
+    <div class="scrolling-banner">
+      <div class="scrolling-track">
+        <img src="img/Main page_header icons.png" alt="흘러가는 이미지" />
+        <img src="img/Main page_header icons.png" alt="흘러가는 이미지 복제본" />
+      </div>
+    </div>
+
+
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="#background">background</a></li>
+        <li><a href="#system-tier">system</a></li>
+        <li><a href="#service-signage">signage</a></li>
+        <li><a href="#service-app">app</a></li>
+        <li><a href="#conclusion">conclusion</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 메인 -->
+  <main class="scroller">
+
+    <!-- 메인 섹션 -->
+    <section id="main" class="section no-padding section">
+
+      <div class="background-overlay"></div>
+
+      <div class="background-blobs">
+        <div class="blob" style="--color:#ff00ff;"></div>
+        <div class="blob1" style="--color:#00ffff;"></div>
+        <div class="blob2" style="--color:#ffff00;"></div>
+        <div class="blob3" style="--color:#ff9900;"></div>
+        <div class="blob4" style="--color:#66ff66;"></div>
+      </div>
+
+      <!--       <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="interactive"></div>
+        </div>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="interactive"></div>
+        </div>
+      </div> -->
+
+      <div class="main-title-wrap">
+        <h1 class="title">
+          <p class="title-mind">마음</p><span class="title-seed">-씨</span>
+        </h1>
+        <div class="mini-text">
+          <p id="mini-1">BUILD YOUR<br />GOOD SAFETY HABITS<br />WITH MAEUM-SEED</p>
+          <p id="mini-2">마음-씨와 함께<br />안전 운전 습관을 만들어요!<br />우리는 ‘사고 예방’ 이 아닌 ‘좋은 운전 습관’ 형성을 돕습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 연구 배경 -->
+    <section id="background" class="section">
+
+      <div class="background-overlay"></div>
+
+      <div class="background-blobs">
+        <div class="blob" style="--color:#ff00ff;"></div>
+        <div class="blob1" style="--color:#00ffff;"></div>
+        <div class="blob2" style="--color:#ffff00;"></div>
+        <div class="blob3" style="--color:#ff9900;"></div>
+        <div class="blob4" style="--color:#66ff66;"></div>
+      </div>
+
+      <div class="background-content">
+        <div class="character-icons">
+          <img src="img/icon-wide.svg" class="character-icon orange" alt="icon-wide" />
+          <img src="img/icon-light.svg" class="character-icon pink" alt="icon-light" />
+          <img src="img/icon-petal.svg" class="character-icon green" alt="icon-petal" />
+          <img src="img/icon-sprout.svg" class="character-icon yellow" alt="icon-sprout" />
+          <div class="character-icon blue">
+            <img src="img/icon-mind.svg" class="blue-body" />
+            <img src="img/icon-mind-left-eye.svg" class="eye left-eye" />
+            <img src="img/icon-mind-right-eye.svg" class="eye right-eye" />
+          </div>
+        </div>
+
+        <div class="background-top-text">
+          <p class="left-text">
+            left-textleft-text left-text left-text left-text left-text left-text
+          </p>
+          <p class="center-text">
+            도로 위 스마트 사이니지와 연동된 앱 서비스로<br>
+            당신의 멋진 차선 변경부터 양보 운전까지<br>
+            놓치지 않고 칭찬합니다.
+          </p>
+          <p class="right-text">
+            마음씨와 함께라면 안전 운전이 일상이 됩니다.
+          </p>
+        </div>
+
+        <div class="sec2-container">
+          <div class="intro-text">
+            <h2 class="intro-big">
+              당신의 착한 운전,<br />마음씨가 보고 있어요
+            </h2>
+            <p>마음씨는 좋은 습관을 키워요.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 연구 배경-1 -->
+    <section id="background-1" class="section padded-section">
+      <div class="explain-content">
+        <div class="explain-text">
+          <h2>
+            마음-씨는 차별이나 강압적인 방법이 아닌<br />
+            운전자들이 자발적으로 안전 운전을<br />
+            하게 되는 서비스입니다.
+          </h2>
+          <p>
+            빵빵거리던 도로 위, 이제는 칭찬과 보상으로 따뜻해지는 교통 문화, 상상해보셨나요?<br />
+            마음씨는 도로 위 스마트 사이니지와 연동된 앱 서비스로,<br />
+            당신의 멋진 차선 변경부터 양보 운전, 과속 안 하기까지<br />
+            놓치지 않고 칭찬합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 연구 배경-2 -->
+    <section class="explain-section">
+      <div class="explain-content">
+        <!-- 좌측 텍스트 -->
+        <div class="left-box">
+          <div class="highlight-box vertical">
+            <span class="highlight pink">사고 예방?</span>
+            <span class="highlight orange">그건 기본이죠!</span>
+          </div>
+          <div class="explain-text">
+            <h2>마음씨는<br />좋은 습관을 키워요.</h2>
+            <p>
+              단순한 경고보다는, "멋지다!" 하는 응원이 더 효과적이랍니다!<br />
+              운전도 습관인만큼, 마음씨와 함께라면 안전운전이 일상이 됩니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 우측 캐릭터 -->
+        <div class="character-image-box">
+          <img src="img/icon-mind-real.svg" class="char-blue slide-in" />
+          <img src="img/icon-light-all.svg" class="char-pink slide-in" />
+          <img src="img/icon-petal.svg" class="extra-char green slide-in" />
+          <img src="img/icon-sprout.svg" class="extra-char yellow slide-in" />
+          <img src="img/icon-wide.svg" class="extra-char orange slide-in" />
+
+          <!-- 선 애니메이션 SVG -->
+          <svg class="svg-line" viewBox="0 0 100 100">
+            <path d="M20,80 C30,60 70,40 80,20" stroke="#000" fill="transparent" stroke-width="2" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="system-tier" class="section">
+      <div class="system-tier-wrap">
+        <h3 class="sub">Tier System</h3>
+        <h2 class="system-title">
+          티어 별 보상은 행동의 변화를 유도하고, <br />
+          반복을 거쳐 습관으로 자리잡게 됩니다.
+        </h2>
+        <p class="system-reward-desc">
+          다음은 안전 운전 습관을 형성하도록 돕는 운전 점수 부여 시스템입니다.<br>
+          이 구조는 운전자의 행동을 단순히 수치화하는 데 그치지 않고,<br>
+          지속 가능한 안전 운전 습관을 자연스럽게 유도하는 역할을 합니다.
+        </p>
+
+        <img src="img/티어묶음.png" alt="Reward System Chart" class="system-img fade-up" />
+
+        <!-- 무지개 바 -->
+        <div class="tier-gradient-bar"></div>
+
+        <!-- 캐릭터 티어 리스트 -->
+       <!--  <div class="tier-character-list">
+          <div class="tier-character-item tier-bronze">
+            <div class="tier-label">
+              <p class="tier-rank">LV. 브론즈</p>
+              <p class="tier-score">하위 40%</p>
+              <p class="tier-name">마음이</p>
+            </div>
+            <div class="tier-bg"></div>
+            <img src="img/마음이.svg" class="tier-icon" alt="마음이" />
+          </div>
+
+          <div class="tier-character-item tier-silver">
+            <div class="tier-label">
+              <p class="tier-rank">LV. 실버</p>
+              <p class="tier-score">상위 60%</p>
+              <p class="tier-name">씨앗이</p>
+            </div>
+            <div class="tier-bg"></div>
+            <img src="img/씨앗이.svg" class="tier-icon" alt="씨앗이" />
+          </div>
+
+          <div class="tier-character-item tier-gold">
+            <div class="tier-label">
+              <p class="tier-rank">LV. 골드</p>
+              <p class="tier-score">상위 30%</p>
+              <p class="tier-name">새싹이</p>
+            </div>
+            <div class="tier-bg"></div>
+            <img src="img/새싹이.svg" class="tier-icon" alt="새싹이" />
+          </div>
+
+          <div class="tier-character-item tier-diamond">
+            <div class="tier-label">
+              <p class="tier-rank">LV. 다이아</p>
+              <p class="tier-score">상위 10%</p>
+              <p class="tier-name">꽃잎이</p>
+            </div>
+            <div class="tier-bg"></div>
+            <img src="img/꽃잎이.svg" class="tier-icon" alt="꽃잎이" />
+          </div>
+
+          <div class="tier-character-item tier-master">
+            <div class="tier-label">
+              <p class="tier-rank">LV. 마스터</p>
+              <p class="tier-score">상위 2.5%</p>
+              <p class="tier-name">활짝이</p>
+            </div>
+            <div class="tier-bg"></div>
+            <img src="img/활짝이.svg" class="tier-icon" alt="활짝이" />
+          </div>
+
+          <div class="tier-character-item tier-grandmaster">
+            <div class="tier-label">
+              <p class="tier-rank">LV. 그랜드 마스터</p>
+              <p class="tier-score">상위 0.5%</p>
+              <p class="tier-name">그저 빛..</p>
+            </div>
+            <div class="tier-bg"></div>
+            <img src="img/그저빛.svg" class="tier-icon" alt="그저빛" />
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+
+
+    <!-- 시스템 -->
+    <section id="system-reward" class="section padded-section">
+      <!-- 시스템 내용 -->
+      <div class="system-reward-wrap">
+
+        <h3 class="sub">Reward System</h3>
+        <img src="img/수정본_Reward System.png" alt="Reward System Chart" class="system-img fade-up" />
+      </div>
+    </section>
+
+    <section id="system-design" class="section padded-section">
+      <!-- 시스템 내용 -->
+      <div class="system-design-wrap">
+        <h3 class="sub">Design System</h3>
+        <div class="system-design-desc">
+          <p id="design-desc1">
+            마음-씨의 디자인 시스템은 안전 운전을 통해 <br>
+            긍정적인 사회적 영향이 확산되길 바라는 의미 <br>
+            를 담고 있습니다. 자동차 핸들과 결합된 꽃잎 <br>
+            구조는 올바른 운전 습관이 사회 전반에 퍼지는<br>
+            과정을 은유적으로 표현하며, ‘마음-씨’라는 이<br>
+            름과도 자연스럽게 연결됩니다. <br>
+          </p>
+          <p id="design-desc2">
+            생동감 있는 색상과 조화로운 대비는 시각적 활<br>
+            력을 더하고, 브랜드의 메시지를 직관적으로 전<br>
+            달하며 사용자가 따뜻한 정서로 안전 운전에 동<br>
+            참하도록 유도합니다.<br>
+          </p>
+        </div>
+        <img src="img/design-system.png" alt="Design System Img" class="system-img fade-up" />
+      </div>
+    </section>
+
+    <div class="empty">
+    </div>
+
+    <!-- 사이니지 서비스_일반도로 -->
+    <section id="service-signage" class="section no-padding section">
+      <div class="signage-wrap">
+        <h3 class="sub">Service Type - 1. Smart Signage</h3>
+        <video class="signage-video" src="img/마음씨_일반도로.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </section>
+
+    <div class="empty">
+      <div class="signage-desc-container" id="signage-desc">
+        <h2>지역별 안전 운전 통계, <br>그리고 전국 비교 랭킹</h2>
+        <p>출퇴근 등 일상적으로 주행이 많은 구역으로,<br>
+          해당 구역의 사이니지는 <span class="black-spam">운전자에게 지역적 소속감을<br>
+            줄 수 있도록 설계</span>되었습니다. 안전운전율과 전국 랭킹을<br>
+          보여주며 운전자들의 <span class="black-spam">참여 의식을 자극</span>합니다.</p>
+      </div>
+    </div>
+
+    <!-- 사이니지 서비스_고속도로 -->
+    <section id="service" class="section no-padding section">
+      <div class="signage-wrap">
+        <video class="signage-video" src="img/마음씨_톨게이트.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </section>
+
+    <div class="empty">
+      <div class="signage-desc-container" id="signage-desc2">
+        <h2>차량의 안전 운전 현황 </h2>
+        <p>운전자에게 개별적인 정보 제공이 가능한 구역<br>
+          으로, <span class="black-spam">개별 차량의 안전 운전 데이터를 기반으로<br>
+            사용자 맞춤형 피드백</span>이 주어집니다. 사이니지에<br>
+          적힌 문구가 성취감을 자극하여 더 적극적으로<br>
+          안전운전을 실천할 수 있도록 돕습니다. </p>
+      </div>
+    </div>
+
+    <!-- 사이니지 서비스_주차장 -->
+    <section id="service" class="section no-padding section">
+      <div class="signage-wrap">
+        <video class="signage-video" src="img/마음씨_주차장입구.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </section>
+
+    <div class="signage-desc-container" id="signage-desc3">
+      <h2>해당 주차장 내 운전자 <br>
+        실시간 랭킹 확인</h2>
+      <p>이를 통해 운전자들이 서로 자신의 위치를 파악<br>
+        하고 경쟁하며, <span class="black-spam">더욱 안전 운전을 하고 싶어지는<br>
+          심리를 유도</span>하게 됩니다.</p>
+    </div>
+
+
+    <!-- 앱 서비스 -->
+    <section id="service-app" class="section no-padding section">
+      <div class="app-wrap" id="app-1">
+        <h3 class="sub">Service Type - 2. App</h3>
+        <img src="img/apps-sample.png" alt="앱 샘플"></img>
+      </div>
+    </section>
+
+    <div class="empty"></div>
+
+    <!-- 앱 콘텐츠 -->
+    <section id="service-app" class="section padded-section">
+
+      <!-- 1. 시작 -->
+      <div class="app-feature" data-index="0">
+        <div class="app-text fade-in">
+          <h2>마음-씨 서비스 시작하기</h2>
+          <p>
+            계정을 연동해 마음-씨 서비스에 회원 가입할 수 있습니다. <br>
+            당신의 <span class="black-spam">좋은 안전 습관</span>을 위한 ‘마음-씨’ 앱을 만나보세요.</p>
+        </div>
+        <img src="img/app-start.png" class="app-img slide-up" />
+      </div>
+    </section>
+
+    <!-- 2. 메인화면 -->
+    <section id="service-app" class="section padded-section">
+      <div class="app-feature" data-index="1">
+        <div class="app-text fade-in">
+          <h2>마음-씨의 메인 화면</h2>
+          <p>
+            메뉴를 클릭하여 세부 페이지로 이동합니다.<br>
+            내 차의 정보와 오늘의 미션 등 <span class="black-spam">좋은 안전 습관</span>를 제공합니다.</p>
+        </div>
+        <img src="img/app-start.png" class="app-img slide-up" />
+      </div>
+    </section>
+
+    <!-- 3. 운전정보1 -->
+    <section id="service-app" class="section padded-section">
+      <div class="app-feature" data-index="2">
+        <div class="app-text fade-in">
+          <h2>나의 운전 정보 확인하기</h2>
+          <p>
+            나의 운전 점수를 <span class="black-spam">실시간으로 상세하게</span> 볼 수 있습니다. <br>
+            우리 동네 랭킹 또한 스크롤 시 확인할 수 있으며, <br>
+            내가 <span class="black-spam">지금까지 획득한 명예 배지들</span>이 전시되어 있습니다.<br>
+          </p>
+        </div>
+        <img src="img/app-drive-1.png" class="app-img slide-up" />
+      </div>
+    </section>
+
+    <!-- 4. 운전정보2 -->
+    <section id="service-app" class="section padded-section">
+      <div class="app-feature" data-index="3">
+        <div class="app-text fade-in">
+          <h2>나의 운전 정보 확인하기</h2>
+          <p>
+            나의 운전 점수를 <span class="black-spam">실시간으로 상세하게</span> 볼 수 있습니다. <br>
+            우리 동네 랭킹 또한 스크롤 시 확인할 수 있으며, <br>
+            내가 <span class="black-spam">지금까지 획득한 명예 배지들</span>이 전시되어 있습니다.<br>
+          </p>
+        </div>
+        <img src="img/app-drive-2.png" class="app-img slide-up" />
+      </div>
+    </section>
+
+    <!-- 5. 우리 동네 티어 -->
+    <section id="service-app" class="section padded-section">
+      <div class="app-feature" data-index="4">
+        <div class="app-text fade-in">
+          <h2>우리 동네 티어 확인하기</h2>
+          <p>
+            <span class="black-spam">우리 동네의 등수와 티어</span>를 알 수 있으며 해당 화면은 공유가 <br>
+            가능합니다. 다함께 성장해, 그랜드 마스터급을 달성해보세요!<br>
+          </p>
+        </div>
+        <img src="img/app-tier.png" class="app-img slide-up" />
+      </div>
+    </section>
+
+    <!-- 6. 나의 랭킹 확인 -->
+    <section id="service-app" class="section padded-section">
+      <div class="app-feature" data-index="5">
+        <div class="app-text fade-in">
+          <h2>나의 랭킹 확인하기</h2>
+          <p>
+            나의 랭킹에 맞는 색상과 아이콘이 보여지며 <br>
+            <span class="black-spam">안전운전에 대한 감사 문구</span>가 나타납니다.<br>
+          </p>
+        </div>
+        <img src="img/app-rank.png" class="app-img slide-up" />
+      </div>
+
+    </section>
+
+    <!-- 결론 -->
+    <section id="conclusion" class="section no-padding section">
+      <div class="conclusion-top-text">
+        <p class="left-text">
+          ‘마음-씨’는 ‘마음가짐’을 변화<br>
+          시키는 데 집중합니다.
+        </p>
+        <p class="center-text">
+          도심 속 디지털 안내 화면을 뜻하는 스마트 사이니지를 <br>
+          매개로 운전자와 지속적으로 감정적 교류를 유도하며, <br>
+          자발적인 안전 운전 습관 형성을 목표로 합니다.<br>
+        </p>
+        <p class="right-text">
+          성공과 보상을 통해 긍정적으로 안전 <br>
+          운전 습관을 형성할 수 있습니다.
+        </p>
+      </div>
+
+      <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="black-overay"></div>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="interactive"></div>
+        </div>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="interactive"></div>
+        </div>
+      </div>
+
+      <div class="conclusion-back-txt">
+        <div class="scroll-wrapper" id="scroll-wrapper">
+          <div class="scroll-text">
+            이로써 ‘마음-씨’는<br>
+            정보 전달에 그치지 않고,<br>
+            운전자 개인의 감정과<br>
+            행동 변화까지 유도하는<br>
+            정서적 인터페이스로 기능하<br>
+            여 운전자의 마음가짐에 변화<br>
+            를 주어 스스로 실천하는 안전<br>
+            운전을 만들어갑니다.
+          </div>
+          <div class="scroll-text">
+            이로써 ‘마음-씨’는<br>
+            정보 전달에 그치지 않고,<br>
+            운전자 개인의 감정과<br>
+            행동 변화까지 유도하는<br>
+            정서적 인터페이스로 기능하<br>
+            여 운전자의 마음가짐에 변화<br>
+            를 주어 스스로 실천하는 안전<br>
+            운전을 만들어갑니다.
+          </div>
+        </div>
+      </div>
+
+      <div class="conclusion-img">
+        <img src="img/icon-mind-all.svg" alt="Mind Character" class="icon-mind-img" />
+      </div>
+
+    </section>
+
+    <!-- 푸터 -->
+    <footer id="contact">
+      <div class="f-top">
+        <h1>
+          마음-씨의 무한한 질주를<br>
+          지켜봐 주세요!</h1>
+        <p><span>마음</span>-씨</p>
+      </div>
+      <div class="f-middle">
+        <div id="se">
+          <h1>정시은</h1>
+          <p>Designer</p>
+          <p>sieunj1114@gmail.com</p>
+          <p>Kaywon University</p>
+        </div>
+        <div id="mj">
+          <h1>김문정</h1>
+          <p>Designer</p>
+          <p>answjd418@gmail.com</p>
+          <p>Kaywon University</p>
+        </div>
+        <div id="ms">
+          <h1>조민서</h1>
+          <p>Programmer</p>
+          <p>x.myohwa@gmail.com</p>
+          <p>Kaywon University</p>
+        </div>
+      </div>
+      <div class="f-bottom">
+        <p>myohwako.github.io/mind-seed/</p>
+        <p>Privacy Policy</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- 스크립트 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
